@@ -1,0 +1,387 @@
+/* STARTER CODE -- DO NOT DELETE */
+/*	============================================== */
+
+
+* {
+	box-sizing: border-box;
+}
+
+/*containers*/
+
+.container {
+	max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+.container-story {
+	max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+.container-weapons {
+	max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+ 
+.container-armor-sets {
+	max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+.container-spells {
+	max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+.container-quote {
+	max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+/* hero image */
+
+.avatar {
+	width: 300px;  
+	object-fit: fill;
+
+}
+
+.masked
+{
+	width: 100px;
+	height: 100px;
+	background-color: #8cffa0;
+	-webkit-mask-image: url(https://cdn.vectorstock.com/i/1000x1000/68/97/hole-torn-in-ripped-paper-on-transparent-vector-21096897.webp);
+	mask-image: url(https://cdn.vectorstock.com/i/1000x1000/68/97/hole-torn-in-ripped-paper-on-transparent-vector-21096897.webp);
+}
+
+/* text */
+
+
+@font-face {
+    font-family: 'warcraftmedium';
+    src: url('../fonts/warcraft-yj2j-webfont.woff2') format('woff2'),
+         url('../fonts/warcraft-yj2j-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+
+}
+
+@font-face {
+    font-family: 'morpheusregular';
+    src: url('../fonts/morpheus-webfont.woff2') format('woff2'),
+         url('../fonts/morpheus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'friz_quadrata_stdbold';
+    src: url('../fonts/friz-quadrata-std-bold-587034a220f9f-webfont.woff2') format('woff2'),
+         url('../fonts/friz-quadrata-std-bold-587034a220f9f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'friz_quadrata_stdbold_italic';
+    src: url('../fonts/friz-quadrata-std-bold-italic-587033d6d4298-webfont.woff2') format('woff2'),
+         url('../fonts/friz-quadrata-std-bold-italic-587033d6d4298-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'friz_quadrata_stditalic';
+    src: url('../fonts/friz-quadrata-std-italic-587033b2c95df-webfont.woff2') format('woff2'),
+         url('../fonts/friz-quadrata-std-italic-587033b2c95df-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'friz_quadrata_stdmedium';
+    src: url('../fonts/friz-quadrata-std-medium-5870338ec7ef8-webfont.woff2') format('woff2'),
+         url('../fonts/friz-quadrata-std-medium-5870338ec7ef8-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2 {
+	font-family: 'warcraftmedium';
+}
+
+h1 {
+	text-align: center;
+	font-size: 9rem;
+	letter-spacing: 0.1rem;
+
+}
+
+.header-flair{
+	background-image: url(https://lh3.googleusercontent.com/sEQRN5kzDZdCEZomioMzQZAA_d4foqkxhPpaGmof0gC0Mp4rIVv4_GdWeQGVy3cAvbXKgzimOUzvtVjB731_ABSdcNs8HQZ-z_KnKMK2gcKt10MHPsp968LFL_PoJqibo1DDYGwI6cjcM30clGGNRcaVB6LvEuxxDXJxrIl-WwXE-tRVXn26-KP4HtSA9m0DxHT_xh1z-jaRiZ5A3DB4VTqa1SL3qpmawvwVg3Q8sl729JP8Cawj1Jrm4DILnfmKS0Mlr_ClsrWI8w1rgQB3uVAFrKb2-2QexPZO69355D_7we0iOdf3JXa2SlVvluozaeVN2pOsX60Fb5dQAN5v0GGbIs_elKF8Ose44JxCHUC77H_BO-IS4C7wfqiIJK3IupL3Oeoyg1TWZRqtpYO3_J5j8ojx8mtpYeSES33f9alNZAdnWfuS628XMjJ32DojzAi_b5ETc4gMUr7pNc64CKba49zyT2wol7zEEKbV-OHgyWFtpgxi3GYonhevTJZvknw6-jqzNEw59NbCfi0jSgQIDy7cigTEAub2IdNHDdGc6i8xVD4G_L5va-zAPW9ObtE3yfW8He5dlcK3pkGSx52pwCIB1jg9aeYA_eByhXGQQuvX00RxkY0UW8HRlCconbAIb_KAN8AhjYwQCdRFpoXEFC8_tMbOgoC2hS8ILCuAm74spoHDBf6hNUtljXodEWdb5GwqlBvo-2pwukWwTFzQ1bma4AgFqWBzxi1gl5Fyb8-Rh_SjabUv0aqs=w1911-h992-no?authuser=0);
+	background-size: auto;
+	color: #fff;
+	height:100vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 4rem;
+	letter-spacing: 1rem;
+} 
+
+h3{
+	text-align: center;
+	font-size: 2rem;
+	letter-spacing: .02rem;
+	font-family: 'friz_quadrata_stdbold';
+
+}
+
+body {
+	line-height: 1.5;
+	
+}
+
+p {
+	padding-left: 7rem;
+	padding-right: 7rem;
+	margin: 3rem;
+	letter-spacing: .03rem;
+	font-family: 'friz_quadrata_stdmedium';
+	font-size: 1.2rem;
+}
+
+
+#one {
+	padding-left: 0rem;
+	padding-right: 0rem;
+	margin: 1rem;
+	letter-spacing: .03rem;
+	font-family: 'friz_quadrata_stdmedium';
+	font-size: 1.2rem;
+}
+
+
+a{
+	font-family: 'morpheusregular';
+}
+
+
+/* section properties */
+
+.page-section {
+	background-color: #eee;
+}
+
+.section-content {
+	padding: 3rem 0;
+	padding-bottom: 6rem;
+	text-align: center;
+}
+
+.section-decoration {
+	overflow: hidden;
+}
+
+.section-decoration img {
+	display: block;
+	position: relative;
+	margin-bottom: -1px;
+}
+
+.section-decoration--flipped img {
+	transform: rotate(180deg);
+	margin-top: -1px;
+}
+
+/* nav */
+
+header {
+	background: #8C1616;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav {
+	margin: 0rem;
+	padding: 0rem;
+}
+
+nav ul li {
+	border-left: 1px solid rgba(37, 0, 0, 0.2);
+	border-right: 1px solid rgba(37,0,0,0.2);
+}
+
+
+nav ul li a {
+	display: block;
+	padding: 1rem 1.5rem;
+	color: #fff;
+	text-decoration: none;
+	transition: background-color 300ms ease;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	background-color: rgba(0,0,0,0.4);
+
+}
+
+/* spells*/
+
+.page-section--spells {
+	background-image: url('https://images3.alphacoders.com/133/thumb-1920-133145.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.page-section--spells .section-content {
+	background-color: rgba(0,0,0,.5);
+}
+
+.page-section--spells h2,
+.page-section--spells h3,
+.page-section--spells p {
+	color: #fff;
+}
+
+.spells-item {
+	display: block;
+	position: relative;
+	padding: 1rem;
+	background-color: rgba(255,255,255,.2);
+	margin-bottom: 1rem;
+	align-items: center;
+}
+
+.spells-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+
+
+
+/* weapons */
+
+.weapons-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.weapons-item--one {
+	position: relative;
+	background: #8C1616;
+	width: calc(25% - 2rem);
+	padding: .5rem;
+	margin: .5rem;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+	transform: scale(1.1);
+	border-style:ridge;
+	border-width: 1rem;
+	transition: border-radius 300ms ease, transform 300ms ease, background-color 300ms ease;
+}
+
+.weapons-item--two {
+	position: relative;
+	background: #8C1616;
+	width: calc(25% - 2rem);
+	padding: .5rem;
+	margin: .5rem;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+	transform: scale(1.1);
+	border-style: ridge;
+	border-width: 1rem;
+	transition: border-radius 300ms ease, transform 300ms ease, background-color 300ms ease;
+}
+
+.weapons-item--three {
+	position: relative;
+	background: #8C1616;
+	width: calc(25% - 2rem);
+	padding: .5rem;
+	margin: .5rem;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+	transform: scale(1.1);
+	border-style:ridge;
+	border-width: 1rem;
+	transition: border-radius 300ms ease, transform 300ms ease, background-color 300ms ease;
+}
+
+/* armor-sets */
+
+.armor-sets-list {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.armor-sets-item--one {
+	position: relative;
+	background: #ddd;
+	width: calc(25% - 2rem);
+	padding: .5rem;
+	margin: .5rem;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+	transform: scale(1.1);
+	
+	transition: border-radius 300ms ease, transform 300ms ease, background-color 300ms ease;
+}
+
+.armor-sets-item--two {
+	position: relative;
+	background: #ddd;
+	width: calc(25% - 2rem);
+	padding: .5rem;
+	margin: .5rem;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+	transform: scale(1.1);
+	
+	transition: border-radius 300ms ease, transform 300ms ease, background-color 300ms ease;
+}
+
+.armor-sets-item--three {
+	position: relative;
+	background: #ddd;
+	width: calc(25% - 2rem);
+	padding: .5rem;
+	margin: .5rem;
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+	transform: scale(1.1);
+	
+	transition: border-radius 300ms ease, transform 300ms ease, background-color 300ms ease;
+}

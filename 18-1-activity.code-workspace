@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../webfontkit-20220907-001155"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "18-1-activity"
+	}
+}
