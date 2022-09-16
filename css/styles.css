@@ -149,8 +149,9 @@ h3{
 	text-align: center;
 	font-size: 2rem;
 	letter-spacing: .02rem;
-	font-family: 'friz_quadrata_stdbold';
+	font-family: 'morpheusregular';
 	color: #fff;
+
 
 }
 
@@ -160,8 +161,8 @@ body {
 }
 
 p {
-	padding-left: 7rem;
-	padding-right: 7rem;
+	padding-left: 25%;
+	padding-right: 25%;
 	margin: 3rem;
 	letter-spacing: .03rem;
 	font-family: 'friz_quadrata_stdmedium';
@@ -177,6 +178,7 @@ p {
 	font-family: 'friz_quadrata_stdmedium';
 	font-size: 1.2rem;
 	color: #fff;
+
 }
 
 
@@ -354,8 +356,8 @@ nav ul li a:hover {
 
 .armor-sets-item--one {
 	position: relative;
-	background: #ddd;
-	width: calc(25% - 2rem);
+	background: rgb(82, 63, 63);
+	width: 25%;
 	padding: .5rem;
 	margin: .5rem;
 	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
@@ -366,8 +368,8 @@ nav ul li a:hover {
 
 .armor-sets-item--two {
 	position: relative;
-	background: #ddd;
-	width: calc(25% - 2rem);
+	background: rgb(82, 63, 63);
+	width: 25%;
 	padding: .5rem;
 	margin: .5rem;
 	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
@@ -378,8 +380,8 @@ nav ul li a:hover {
 
 .armor-sets-item--three {
 	position: relative;
-	background: #ddd;
-	width: calc(25% - 2rem);
+	background: rgb(82, 63, 63);
+	width: 25%;
 	padding: .5rem;
 	margin: .5rem;
 	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
