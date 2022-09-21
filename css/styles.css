@@ -129,7 +129,7 @@ h1 {
 }
 
 .header-flair{
-	background: url(.../images/forthehorde.gif);
+	background-image: url(../images/forthehorde.gif);
 	background-size: auto;
 	color: #fff;
 	height:100vh;
